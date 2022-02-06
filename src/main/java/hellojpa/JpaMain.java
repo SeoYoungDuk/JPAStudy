@@ -33,6 +33,7 @@ public class JpaMain {
             for (Member member : result) {
                 System.out.println("member.name = " + member.getName());
             }
+            //test
 
             tx.commit();
         }
